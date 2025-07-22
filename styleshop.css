@@ -89,7 +89,7 @@ footer{
        margin-bottom: -0px;
     }
 button{
-        background: linear-gradient(to right, #a89abc,  #b1adc7);
+    background: rgb(255, 255, 255);
     color: rgb(2, 3, 15);
     border-radius: 40px;
     width: 125px;
@@ -97,3 +97,4 @@ button{
     font-size: 20px;
     margin-top: 50px;
 }
+
