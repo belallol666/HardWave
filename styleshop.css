@@ -1,0 +1,104 @@
+body{
+    background-color: #d2d5db;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    direction: ltr;
+}
+.notiv{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+   nav{
+    margin-top: 10PX;
+    text-align: center;
+    background: #e8e9eb;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    gap: 20px;
+    padding: 15px;
+    margin: 15;;
+}
+.intro {
+    margin-top: auto;
+    font-size: 24px;
+}
+h2{
+    text-align: center;
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: 35px
+     
+}
+header{
+    background: linear-gradient(to right, #7959a6,  #00b7ff);
+    padding: 1em;
+    text-align: center;
+    color: rgb(233, 225, 225);
+    color: white;
+    margin: 15;
+    font-size: 28px;
+text-align: center;
+   font-family: Georgia, 'Times New Roman', Times, serif; 
+   font-size: 45px;
+}
+.img{
+ width: 350px;
+ padding: 65px;
+ margin-bottom: 100px;
+ height: 20;
+}
+nav a {
+    color: rgb(43, 91, 145);
+    margin: 0 30px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    transition: 0.3s;
+   
+
+}
+
+
+.products {
+display: flex;
+padding: 20 px;
+justify-content: center;
+gap: 15px;
+flex-wrap: wrap;
+
+}
+.product {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 220px;
+    text-align: center;
+    box-shadow: 0 0 10px;  
+    
+
+    }
+.product img {
+width: 100%;
+border-radius: 10px;
+}
+button :hover{
+    background: #219150;
+}
+footer{
+      background: #2c3e50;
+       padding: 10px;
+       text-align: center;
+       margin-top: 20px;
+       color: white;
+       margin-bottom: -0px;
+    }
+button{
+    background: rgb(241, 238, 238);
+    color: rgb(61, 70, 173);
+    border-radius: 40px;
+    width: 125px;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 50px;
+}
