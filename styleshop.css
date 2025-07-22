@@ -1,37 +1,32 @@
 body{
-    background-color: #d2d5db;
+        background: linear-gradient(to right, #a89abc,  #6657a8);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0;
     padding: 0;
     direction: ltr;
 }
-.notiv{
-    width: 90%;
-    max-width: 1000px;
-    margin: auto;
-}
-   nav{
+.notv{
     margin-top: 10PX;
     text-align: center;
-    background: #e8e9eb;
-    font-family: 'Times New Roman', Times, serif;
+        background: linear-gradient(to right, #a89abc,  #6657a8);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     justify-content: center;
     gap: 20px;
     padding: 15px;
-    margin: 15;;
-}
+    margin: 15;
+   }
 .intro {
     margin-top: auto;
-    font-size: 24px;
+    font-size: 45px;
+    text-decoration: none;
 }
 h2{
     text-align: center;
-     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-     font-size: 35px
-     
-}
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 50px;
+     margin: auto;
+    }
 header{
-    background: linear-gradient(to right, #7959a6,  #00b7ff);
     padding: 1em;
     text-align: center;
     color: rgb(233, 225, 225);
@@ -49,8 +44,8 @@ text-align: center;
  height: 20;
 }
 nav a {
-    color: rgb(43, 91, 145);
-    margin: 0 30px;
+    color: rgb(217, 225, 234);
+        margin: 0 30px;
     text-decoration: none;
     text-align: center;
     font-weight: bold;
@@ -69,7 +64,7 @@ flex-wrap: wrap;
 
 }
 .product {
-    background: white;
+    background: rgb(255, 255, 255);
     padding: 15px;
     border-radius: 10px;
     width: 220px;
