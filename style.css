@@ -10,21 +10,29 @@ body{
    justify-content: space-between;
    align-items: center;
    padding: 10px 50px;
+       transition: 0.3s;
+
 }
 
-.intro a{
-   font-size: 50px;
-     margin-top: 3PX;
-    text-align: right   ;
-    font-family: 'Times New Roman', Times, serif;
-    justify-content: center;
-    gap: 300px;
-    padding: 5PX 15PX;
-    margin: 1;
-    text-decoration: none; 
-   
-    
-}
+
+.intro {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+.intro a {  
+      background: rgb(107, 128, 156);
+      color: #174799;
+      padding: 0.75rem 1.5rem;
+      border-radius: 999px;
+      font-weight: bold;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+.intro a:hover {
+      background: #010711;
+    }
 h2{
     text-align: center;
      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -40,6 +48,8 @@ header{
 text-align: center;
    font-family: Georgia, 'Times New Roman', Times, serif; 
    font-size: 45px;
+       transition: 0.3s;
+
 }
 .img{
  width: 500px;
@@ -94,7 +104,7 @@ footer{
        margin-bottom: -0px;
     }
 button{
-    background: rgb(241, 238, 238);
+    background: rgb(18, 14, 14);
     color: rgb(61, 70, 173);
     border-radius: 40px;
     width: 125px;
